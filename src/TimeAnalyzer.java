@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class timeAnalyzer{
+public class TimeAnalyzer{
     // For check if the form is fully filled
     private static int totalNumberOfParticipants;
     private static ArrayList<String> missedPeople;
@@ -28,7 +28,7 @@ public class timeAnalyzer{
 
         // Ask user what specifically to analyze
         int option = getOption();
-        timeAnalyzer analyzer = new timeAnalyzer();
+        TimeAnalyzer analyzer = new TimeAnalyzer();
 
         // Check whether the vote form is filled fully
         if (analyzer.formFullyFilled(filename)){
