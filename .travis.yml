@@ -1,0 +1,6 @@
+language: java
+
+script:
+- javac -Xlint Start.java
+- javac -Xlint Poll.java
+- javac -Xlint timeAnalyzer.java
