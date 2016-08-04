@@ -1,6 +1,7 @@
 language: java
 
 script:
+- cd src
 - javac -Xlint Start.java
 - javac -Xlint Poll.java
 - javac -Xlint TimeAnalyzer.java
