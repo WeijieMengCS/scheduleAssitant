@@ -37,4 +37,15 @@ public class LabSection{
     public String getNominated(){
         return nominated;
     }
+
+    /*********************************************************************
+     *                              Print
+     *********************************************************************/
+    public void printCandidates(){
+        int i = 0;
+        //System.out.println("Section " + sectionNumber);
+        for (String candidate : candidates){
+            System.out.print(candidate + (++i == candidates.size() ? "\n":", "));
+        }
+    }
 }
