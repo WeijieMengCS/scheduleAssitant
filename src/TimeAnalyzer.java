@@ -63,6 +63,8 @@ public class TimeAnalyzer{
         return data;
     }
 
+    int getTotalNumberOfParticipants() { return totalNumberOfParticipants; }
+
     /*********************************************************************
      *                          Menu
      *********************************************************************/
