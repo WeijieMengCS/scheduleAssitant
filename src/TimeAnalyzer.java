@@ -19,7 +19,7 @@ public class TimeAnalyzer{
 
     public static void main(String[] args){
         // Check if user has passed enough arguments
-        if (args.length < 2){
+        if (args.length < 1){
             System.out.println(USAGE);
             System.exit(1);
         }
